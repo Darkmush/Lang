@@ -59,21 +59,21 @@ public class MainActivity extends ActionBarActivity {
         localeHandler.cacheLanguage();
         long ct = System.currentTimeMillis();
 
-        ((TextView) findViewById(R.id.text1)).setText(localeHandler.getString("String1"));
-        ((TextView) findViewById(R.id.textView)).setText(localeHandler.getString("String2"));
-        ((TextView) findViewById(R.id.textView2)).setText(localeHandler.getString("String3"));
-        ((TextView) findViewById(R.id.textView3)).setText(localeHandler.getString("String4"));
-        ((TextView) findViewById(R.id.textView4)).setText(localeHandler.getString("String5"));
-        ((TextView) findViewById(R.id.textView5)).setText(localeHandler.getString("String6"));
-        ((TextView) findViewById(R.id.textView6)).setText(localeHandler.getString("String7"));
-        ((TextView) findViewById(R.id.textView7)).setText(localeHandler.getString("String8"));
-        ((TextView) findViewById(R.id.textView8)).setText(localeHandler.getString("String9"));
-        ((TextView) findViewById(R.id.textView9)).setText(localeHandler.getString("String10"));
-        ((TextView) findViewById(R.id.textView10)).setText(localeHandler.getString("String11"));
-        ((TextView) findViewById(R.id.textView11)).setText(localeHandler.getString("String12"));
-        ((TextView) findViewById(R.id.textView12)).setText(localeHandler.getString("String13"));
-        ((TextView) findViewById(R.id.textView13)).setText(localeHandler.getString("String14"));
-        ((TextView) findViewById(R.id.textView14)).setText(localeHandler.getString("String15"));
+        ((TextView) findViewById(R.id.text1)).setText(localeHandler.getString("String0"));
+        ((TextView) findViewById(R.id.textView)).setText(localeHandler.getString("String1"));
+        ((TextView) findViewById(R.id.textView2)).setText(localeHandler.getString("String2"));
+        ((TextView) findViewById(R.id.textView3)).setText(localeHandler.getString("String3"));
+        ((TextView) findViewById(R.id.textView4)).setText(localeHandler.getString("String4"));
+        ((TextView) findViewById(R.id.textView5)).setText(localeHandler.getString("String5"));
+        ((TextView) findViewById(R.id.textView6)).setText(localeHandler.getString("String6"));
+        ((TextView) findViewById(R.id.textView7)).setText(localeHandler.getString("String7"));
+        ((TextView) findViewById(R.id.textView8)).setText(localeHandler.getString("String8"));
+        ((TextView) findViewById(R.id.textView9)).setText(localeHandler.getString("String9"));
+        ((TextView) findViewById(R.id.textView10)).setText(localeHandler.getString("String10"));
+        ((TextView) findViewById(R.id.textView11)).setText(localeHandler.getString("String11"));
+        ((TextView) findViewById(R.id.textView12)).setText(localeHandler.getString("String12"));
+        ((TextView) findViewById(R.id.textView13)).setText(localeHandler.getString("String13"));
+        ((TextView) findViewById(R.id.textView14)).setText(localeHandler.getString("String14"));
 
         long et = System.currentTimeMillis();
         ((TextView) findViewById(R.id.textView15)).setText("Cache loaded in " + (ct-st) + "ms.\n" +

@@ -24,8 +24,8 @@ public class LocaleHandler {
     }
 
     public void downloadLanguages(){
-        sqliteController.storeLanguage(serverConnector.downloadLanguage("LangA"));
-        sqliteController.storeLanguage(serverConnector.downloadLanguage("LangB"));
+        sqliteController.storeLanguage(serverConnector.downloadLanguage("LangA",15));
+        sqliteController.storeLanguage(serverConnector.downloadLanguage("LangB",15));
     }
 
     public void toggleLanguage(){
